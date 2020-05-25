@@ -34,3 +34,9 @@
     border-top-style: solid;
     margin-top: 2%;
 }
+
+.paperDownload{
+    font: bold;
+    padding-left: 2%;
+    padding-right: 2%;
+}

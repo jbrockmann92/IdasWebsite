@@ -12,7 +12,7 @@ function sendEmail(){
     service: 'gmail',
     auth: {
         user: 'idasengineering@gmail.com',
-        pass: 'IdasPass123'
+        pass: 'passwordTest'
     }
     });
 

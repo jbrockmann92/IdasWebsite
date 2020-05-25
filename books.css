@@ -38,3 +38,19 @@ footer {
 .bookEntry {
     background-color: lightblue;
 }
+
+.ebayLink{
+  border: lightgray;
+  border-width: 2px;
+  border-style: solid;
+  color: black;
+  background-color: pink;
+  padding: 1% 1% 1% 1%;
+  bottom: 0px;
+}
+
+.ebayLink:hover{
+  background-color: rgb(255, 221, 227);
+  text-decoration: none;
+  color: black;
+}

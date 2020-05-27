@@ -44,13 +44,12 @@ footer {
   border-width: 2px;
   border-style: solid;
   color: black;
-  background-color: pink;
+  background-color: lightpink;
   padding: 1% 1% 1% 1%;
-  bottom: 0px;
 }
 
 .ebayLink:hover{
-  background-color: rgb(255, 221, 227);
+  background-color: rgb(255, 225, 229);
   text-decoration: none;
   color: black;
 }

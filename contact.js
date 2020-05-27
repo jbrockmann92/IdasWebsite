@@ -12,13 +12,13 @@ function sendEmail(){
     service: 'gmail',
     auth: {
         user: 'idasengineering@gmail.com',
-        pass: 'passwordTest'
+        pass: ''
     }
     });
 
     var mailOptions = {
     from: 'idasengineering@gmail.com',
-    to: 'jacob.brockmann92@gmail.com',
+    to: 'idasengineering@gmail.com',
     subject: 'Testing for NodeMailer',
     text: document.getElementById('subject'),
     };

@@ -4,10 +4,27 @@
     <title>Idas Engineering</title>
     <link rel="stylesheet" type="text/css" href="contact.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <script src="contact.js"></script>
+    <script>
+        function sendEmail(){
+            var fName = document.getElementById("fName").value;
+            var lName = document.getElementById("lName").value;
+            var email = document.getElementById("email").value;
+            var subject = document.getElementById("subject").value;
+
+            Email.send({
+                Host: "smtp.gmail.com",
+                Username : "idasengineering@gmail.com",
+                Password : '***',
+                To : email,
+                From : "idasengineering@gmail.com",
+                Subject : subject,
+                Body : subject,
+                });
+        }
+    </script>
     <script src="https://smtpjs.com/v3/smtp.js"></script>
 </head>
-<body onload="sendEmail()" style="background-color: rgb(151, 82, 82)">
+<body style="background-color: rgb(151, 82, 82)">
     <div style="padding-left: 18%; padding-right: 18%">
         <div class="topnav">
             <a href="index.html">About</a>

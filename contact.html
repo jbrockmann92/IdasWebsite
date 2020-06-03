@@ -30,11 +30,11 @@
                 From : 'idasengineering@gmail.com',
                 Subject : 'Inquiry from: ' + email,
                 Body : 'From: ' + fName + ' ' + lName + ' Body: ' + subject,
-            });
+            }).then(
+                alert("Message sent successfully!")
+            )
 
             sleep(500);
-
-            alert("Message sent successfully!");
         }
     </script>
 </head>
@@ -66,20 +66,6 @@
           
             </form>
         </div>
-
-        <!-- <div class="contact-form">
-            <form id="contact-form" method="POST" action="contact.php">
-
-                <input name="name" type="text" class="form-control" placeholder="Your Name" required>
-                <br>
-                <input name="email" type="email" class="form-control" placeholder="Your Email" required>
-                <br>
-
-                <textarea name="message" class="form-control" placeholder="Message" row="4" required></textarea><br>
-
-                <input type="submit" class="form-control submit" value="SEND MESSAGE">
-            </form>        
-        </div> -->
     </div>
     
 </body>

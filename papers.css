@@ -28,11 +28,10 @@
 
   footer {
     position: fixed;
+    color: black;
     bottom: 0;
-    border-top-color: lightgray; 
-    border-top-width: 1px; 
-    border-top-style: solid;
     margin-top: 2%;
+    padding-left: 18%;
 }
 
 .paperDownload{
